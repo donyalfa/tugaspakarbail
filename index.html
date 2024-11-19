@@ -8,7 +8,7 @@
     <style>
         body {
             background-color: #332d2d;
-            color: #e0e0e0;
+            color: #5e4b4b;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
@@ -20,7 +20,7 @@
             color: #ffffff !important;
         }
         .hero {
-            background-image: url('path-to-hero-image.jpg'); /* Ganti dengan URL gambar utama */
+            background-image: url("WhatsApp\ Image\ 2024-11-19\ at\ 11.48.55\ AM.jpeg"); /* Ganti dengan URL gambar background */
             background-size: cover;
             background-position: center;
             height: 300px;
@@ -30,8 +30,9 @@
             align-items: center;
             justify-content: center;
             font-size: 2em;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5); /* Menambahkan layer transparan di atas gambar */
             margin-bottom: 30px;
+            height: 70vh;
         }
         .carousel {
             margin-top: 20px;
@@ -48,6 +49,25 @@
             color: #bdbdbd;
             margin-top: auto;
             padding: 15px;
+
+        }
+        .members-list {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            color: #fff;
+            margin-top: 30px;
+
+        }
+        .members-list ul {
+            list-style-type: square;
+            margin: 20px;
+        }
+    
+
+
+        .members-list ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -75,7 +95,7 @@
 
     <!-- Landing Page -->
     <header class="hero">
-        <h1>Selamat Datang di Website dokumentasi kami</h1>
+        <marquee behavior="" direction="Rights"><h1>Selamat Datang di Website dokumentasi kami</h1></marquee>
     </header>
 
     <!-- Konten Utama dengan Carousel -->
@@ -148,6 +168,19 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
+
+    <!-- Daftar Nama Anggota -->
+    <div class="container members-list">
+        <h3 style="text-align: center;">Anggota Kelompok 4</h3>
+        <ul>
+            <li >Doni </li>
+            <li>bayu </li>
+            <li>Catur </li>
+            <li>Kripton</li>    
+            
+            <li>Kevin</li>
+        </ul>
     </div>
 
     <!-- Footer -->
