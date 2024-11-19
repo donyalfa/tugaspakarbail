@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas pak arbail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #332d2d;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar, .footer, .carousel-caption {
+            background-color: #1f1f1f;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+        .hero {
+            background-image: url('path-to-hero-image.jpg'); /* Ganti dengan URL gambar utama */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: #ffffff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+        .carousel {
+            margin-top: 20px;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(1);
+        }
+        .footer {
+            color: #bdbdbd;
+            margin-top: auto;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kelompok 4</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#institut">Institut Teknologi Sepuluh Nopember</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tanahlot">Pantai Tanah Lot</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bedugul">Danau Bedugul</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bajrasandhi">Museum Bajra Sandhi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pandawa">Pantai Pandawa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gwk">Garuda Wisnu Kencana</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#angkasapura">Angkasa Pura</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <header class="hero">
+        <h1>Selamat Datang di Website dokumentasi kami</h1>
+    </header>
+
+    <!-- Konten Utama dengan Carousel -->
+    <div class="container my-5">
+        <div id="carouselWisata" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Institut Teknologi Sepuluh Nopember -->
+                <div class="carousel-item active">
+                    <img src="its.jpg" class="d-block w-100" alt="Institut Teknologi Sepuluh Nopember">
+                    <div class="carousel-caption d-block">
+                        <h5>Institut Teknologi Sepuluh Nopember</h5>
+                        <p>Deskripsi mengenai ITS sebagai salah satu perguruan tinggi ternama di Surabaya.</p>
+                    </div>
+                </div>
+                <!-- Pantai Tanah Lot -->
+                <div class="carousel-item">
+                    <img src="b59d7f73-fb70-43f2-98ed-0e57fba48af5.jpg" class="d-block w-100" alt="Pantai Tanah Lot">
+                    <div class="carousel-caption d-block">
+                        <h5>Pantai Tanah Lot</h5>
+                        <p>Pantai Tanah Lot adalah destinasi wisata populer di Bali yang menawarkan pemandangan pura di atas batu karang.</p>
+                    </div>
+                </div>
+                <!-- Danau Bedugul -->
+                <div class="carousel-item">
+                    <img src="WhatsApp Image 2024-11-19 at 11.14.00 AM.jpg" class="d-block w-100" alt="Danau Bedugul">
+                    <div class="carousel-caption d-block">
+                        <h5>Danau Bedugul</h5>
+                        <p>Danau yang dikelilingi pemandangan pegunungan, sangat cocok untuk rekreasi dan menikmati alam.</p>
+                    </div>
+                </div>
+                <!-- Museum Bajra Sandhi -->
+                <div class="carousel-item">
+                    <img src="WhatsApp Image 2024-11-19 at 10.57.38 AM.jpg" class="d-block w-100" alt="Museum Bajra Sandhi">
+                    <div class="carousel-caption d-block">
+                        <h5>Museum Bajra Sandhi</h5>
+                        <p>Museum ini adalah monumen perjuangan rakyat Bali, berisi sejarah perjuangan yang panjang dan inspiratif.</p>
+                    </div>
+                </div>
+                <!-- Pantai Pandawa -->
+                <div class="carousel-item">
+                    <img src="pantai.jpg" class="d-block w-100" alt="Pantai Pandawa">
+                    <div class="carousel-caption d-block">
+                        <h5>Pantai Pandawa</h5>
+                        <p>Pantai dengan pemandangan tebing batu kapur dan lautan biru yang memukau, cocok untuk aktivitas air dan berjemur.</p>
+                    </div>
+                </div>
+                <!-- Garuda Wisnu Kencana -->
+                <div class="carousel-item">
+                    <img src="8b572053-537f-4032-832d-efb4b612ab51.jpg" class="d-block w-100" alt="Garuda Wisnu Kencana">
+                    <div class="carousel-caption d-block">
+                        <h5>Garuda Wisnu Kencana</h5>
+                        <p>Tempat ikonik dengan patung besar Dewa Wisnu yang menunggang Garuda, tempat ini juga sering mengadakan pertunjukan budaya.</p>
+                    </div>
+                </div>
+                <!-- Angkasa Pura -->
+                <div class="carousel-item">
+                    <img src="WhatsApp Image 2024-11-19 at 11.18.40 AM.jpg" class="d-block w-100" alt="Angkasa Pura">
+                    <div class="carousel-caption d-block">
+                        <h5>Angkasa Pura</h5>
+                        <p>Angkasa Pura sebagai pengelola bandara internasional menawarkan fasilitas yang memudahkan wisatawan dalam perjalanan.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselWisata" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselWisata" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <p>kelompok 4 &copy; 2024. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
